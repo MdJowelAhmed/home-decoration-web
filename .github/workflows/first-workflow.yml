@@ -1,4 +1,4 @@
-name: My First Workflow
+name: Learning GitHub Actions
 
 on: push
 
@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print Information
+      - name: Print Welcome
         run: |
-          echo "Hello GitHub Actions"
+          echo "Welcome to GitHub Actions"
+          echo "Today I am learning CI/CD"
           pwd
           ls
-          echo "Workflow Finished"
